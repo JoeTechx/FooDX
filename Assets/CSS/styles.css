@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 :root {
   /* Colors */
   /*change favorite color*/
@@ -20,8 +20,8 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /* FONT And TYPOGRAPHY */
-  --body-font-sm: "Roboto", sans-serif;
-  --body-font-lg: "Quicksand", sans-serif;
+  --body-font-sm: 'Roboto', sans-serif;
+  --body-font-lg: 'Quicksand', sans-serif;
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ...*/
   --big-font-size: 2rem;
   --bigger-font-size: 3rem;
@@ -63,10 +63,6 @@ a {
   text-decoration: none;
 }
 /* ========---- HEADER -------====== */
-.nav {
-  background-color: aqua;
-  height: 100%;
-}
 .nav--logo {
   height: 1.4rem;
   position: fixed;
@@ -98,7 +94,7 @@ a {
     transform: scale(1);
   }
 }
-.header {
+.sidebar {
   position: fixed;
   top: 0;
   left: 0;
@@ -158,11 +154,11 @@ a {
   box-shadow: var(--light-shadow);
   cursor: pointer;
 }
-.show-header {
+.show-sidebar {
   transform: translate(0);
 }
 @media screen and (min-width: 676px) {
-  .header {
+  .sidebar {
     width: 400px;
   }
 }
