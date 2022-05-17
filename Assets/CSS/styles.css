@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 :root {
   /* Colors */
   /*change favorite color*/
@@ -20,8 +20,8 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /* FONT And TYPOGRAPHY */
-  --body-font-sm: 'Roboto', sans-serif;
-  --body-font-lg: 'Quicksand', sans-serif;
+  --body-font-sm: "Roboto", sans-serif;
+  --body-font-lg: "Quicksand", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ...*/
   --big-font-size: 2rem;
@@ -270,7 +270,7 @@ nav {
   line-height: 1.75rem;
   font-weight: 400;
 }
-.button-content{
+.button-content {
   padding: 1rem;
 }
 .home-button {
@@ -290,5 +290,9 @@ nav {
   width: 20rem;
   height: 20rem;
   padding: 1rem;
-
+}
+@media screen and (max-width: 395px) {
+  .home-content {
+    width: 19rem;
+  }
 }
