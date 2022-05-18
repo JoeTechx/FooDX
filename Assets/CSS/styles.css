@@ -254,7 +254,7 @@ nav {
   top: 6rem;
 }
 .home-content {
-  width: 25rem;
+  /* width: 25rem; */
 }
 .home-title {
   font-size: 2rem;
@@ -264,7 +264,7 @@ nav {
   text-transform: capitalize;
 }
 .home-description {
-  width: 26.813;
+  /* width: 26.813; */
   padding: 1rem;
   font-size: 0.9rem;
   line-height: 1.75rem;
@@ -287,12 +287,36 @@ nav {
   color: var(--text-color);
 }
 .home-img {
-  width: 20rem;
-  height: 20rem;
+  width: 17rem;
+  height: 17rem;
   padding: 1rem;
 }
 @media screen and (max-width: 395px) {
   .home-content {
-    width: 19rem;
+    /* width: 19rem; */
   }
+  .nav--logo{
+    height: 1.1rem;
+  }
+}
+ @media screen and (min-width: 568px) {
+  .home{
+    padding: 4rem 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .home-title{
+    /* width: 17rem; */
+    font-size: 1.6rem;
+  }
+    .home-description{
+    /* width: 17rem; */
+    font-size: 0.8rem;
+  }
+.home-image{
+  width: 16rem;
+  height: 16rem;
+  padding-right: 20rem;
+ }
 }
