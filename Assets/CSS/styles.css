@@ -252,7 +252,7 @@ nav {
   }
 }
 @media screen and (min-width: 1400px) {
-   .nav-logo {
+  .nav-logo {
     margin-left: 7rem;
   }
 }
@@ -381,7 +381,7 @@ nav {
   }
 }
 @media screen and (min-width: 1280px) {
-    .home {
+  .home {
     max-width: 1100px;
     margin-left: 3rem;
   }
@@ -401,7 +401,7 @@ nav {
   }
 }
 @media screen and (min-width: 1368px) {
-    .home {
+  .home {
     max-width: 1200px;
   }
   .home-img {
@@ -427,8 +427,26 @@ nav {
   .home-title {
     font-size: 3rem;
   }
-.home-img{
-  width: 30rem;
-  height: 30rem;
+  .home-img {
+    width: 30rem;
+    height: 30rem;
+  }
 }
+/* ========--- COUNTER-----======== */
+.counter {
+  width: 100%;
+  height: 35%;
+  background: var(--first-color);
+  position: absolute;
+  top: 43.375rem;
+}
+.counter-num{
+  padding-top: 1rem;
+  text-align: center;
+  color: var(--container-color);
+}
+.counter-text{
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--container-color);
 }
