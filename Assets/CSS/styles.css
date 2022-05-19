@@ -305,6 +305,7 @@ nav {
 }
 @media screen and (min-width: 568px) {
   .home {
+    max-width: 700px;
     padding: 4rem 0.5rem;
     display: flex;
     align-items: center;
@@ -317,12 +318,19 @@ nav {
     font-size: 0.8rem;
   }
   .home-image {
-    width: 16rem;
-    height: 16rem;
+    width: 19rem;
+    height: 19rem;
     padding-right: 20rem;
+  }
+  .right-btn{
+    margin-right: -3rem;
+    margin-top: 1rem;
   }
 }
 @media screen and (min-width: 768px) {
+    .home{
+    max-width: 900px;
+  }
   .home-content {
     padding-left: 1rem;
   }
@@ -331,18 +339,26 @@ nav {
     line-height: 3rem;
   }
   .home-img {
-    width: 19rem;
-    height: 19rem;
+    width: 22rem;
+    height: 22rem;
     padding-right: 2rem;
   }
 }
 @media screen and (min-width: 880px) {
+  .home{
+    max-width: 900px;
+  }
   .home-content {
-    padding-left: 5rem;
+    padding-left: 3rem;
+  }
+    .home-img {
+    width: 25rem;
+    height: 25rem;
   }
 }
 @media screen and (min-width: 968px) {
   .home {
+    max-width: 1000px;
     padding-right: 7rem;
   }
   .home-content {
@@ -351,8 +367,8 @@ nav {
 }
 @media screen and (min-width: 1024px) {
   .home {
-    min-width: 940px;
-    margin-left: 6rem;
+    max-width: 940px;
+    margin-left: 9rem;
     margin-right: 5rem;
   }
   .home-content {
@@ -366,8 +382,8 @@ nav {
 }
 @media screen and (min-width: 1200px) {
   .home {
-    min-width: 900px;
-    margin-left: 3rem;
+    min-width: 1000px;
+    margin-left: 8rem;
     margin-right: 9rem;
   }
   .home-img {
@@ -433,12 +449,15 @@ nav {
   }
 }
 /* ========--- COUNTER-----======== */
-.counter {
+.counters {
   width: 100%;
-  height: 35%;
+  padding: 2rem;
   background: var(--first-color);
   position: absolute;
   top: 43.375rem;
+}
+.counter{
+  padding: 1rem;
 }
 .counter-num{
   padding-top: 1rem;
@@ -449,4 +468,51 @@ nav {
   font-size: 0.8rem;
   text-align: center;
   color: var(--container-color);
+margin-left: 9rem;
 }
+@media screen and (min-width: 340px), (max-width: 340px) {
+ .counters{
+ top: 50.375rem;
+ }  
+}
+@media screen and (min-width: 400px) {
+ .counters{
+ top: 43.375rem;
+ }  
+}
+
+@media screen and (min-width: 568px) {
+ .counters{
+ top: 34.375rem;
+ }  
+}
+@media screen and (min-width: 768px) {
+ .counters{
+   display: inline-flex;
+   justify-content: space-evenly;
+ top: 39.375rem;
+ }  
+}
+@media screen and (min-width: 1200px) {
+ .counters{
+ top: 38.375rem;
+ }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
