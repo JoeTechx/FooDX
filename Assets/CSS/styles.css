@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 :root {
   /* Colors */
   /*change favorite color*/
@@ -20,8 +20,8 @@
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
   /* FONT And TYPOGRAPHY */
-  --body-font-sm: 'Roboto', sans-serif;
-  --body-font-lg: 'Quicksand', sans-serif;
+  --body-font-sm: "Roboto", sans-serif;
+  --body-font-lg: "Quicksand", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ...*/
   --big-font-size: 2rem;
@@ -322,13 +322,13 @@ nav {
     height: 19rem;
     padding-right: 20rem;
   }
-  .right-btn{
+  .right-btn {
     margin-right: -3rem;
     margin-top: 1rem;
   }
 }
 @media screen and (min-width: 768px) {
-    .home{
+  .home {
     max-width: 900px;
   }
   .home-content {
@@ -345,13 +345,13 @@ nav {
   }
 }
 @media screen and (min-width: 880px) {
-  .home{
+  .home {
     max-width: 900px;
   }
   .home-content {
     padding-left: 3rem;
   }
-    .home-img {
+  .home-img {
     width: 25rem;
     height: 25rem;
   }
@@ -450,69 +450,58 @@ nav {
 }
 /* ========--- COUNTER-----======== */
 .counters {
-  width: 100%;
-  padding: 2rem;
-  background: var(--first-color);
   position: absolute;
-  top: 43.375rem;
-}
-.counter{
+  top: 43.33rem;
+  background-color: var(--first-color);
   padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .counter-num{
-  padding-top: 1rem;
-  text-align: center;
   color: var(--container-color);
+  text-align: center;
 }
+
 .counter-text{
-  font-size: 0.8rem;
   text-align: center;
+  letter-spacing: .1rem;
+  font-size: 0.7rem;
   color: var(--container-color);
-margin-left: 9rem;
 }
 @media screen and (min-width: 340px), (max-width: 340px) {
- .counters{
- top: 50.375rem;
- }  
+  .counters {
+    top: 50.375rem;
+  }
+  .counter {
+    
+  }
+  .counter-text {
+    /* position: absolute;
+    left: 7rem; */
+  }
 }
 @media screen and (min-width: 400px) {
- .counters{
- top: 43.375rem;
- }  
+  .counters {
+    top: 43.375rem;
+  }
 }
 
 @media screen and (min-width: 568px) {
- .counters{
- top: 34.375rem;
- }  
+  .counters {
+    top: 34.375rem;
+  }
 }
 @media screen and (min-width: 768px) {
- .counters{
-   display: inline-flex;
-   justify-content: space-evenly;
- top: 39.375rem;
- }  
+  .counters {
+    /* display: flex;
+    justify-content: space-evenly;
+    top: 39.375rem; */
+  }
 }
 @media screen and (min-width: 1200px) {
- .counters{
- top: 38.375rem;
- }  
+  .counters {
+    top: 38.375rem;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
