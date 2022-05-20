@@ -124,7 +124,7 @@ nav {
   height: 100%;
   z-index: var(--z-modal);
   background-color: var(--body-color);
-  box-shadow: var(--dark-shadow);
+  /* box-shadow: var(--light-shadow); */
   transition: var(--transition);
   transform: translate(-100%);
 }
@@ -317,7 +317,7 @@ nav {
   .home-description {
     font-size: 0.8rem;
   }
-  
+
   .right-btn {
     margin-right: -3rem;
     margin-top: 1rem;
@@ -363,10 +363,10 @@ nav {
 }
 @media screen and (min-width: 1024px) {
   .home {
-  max-width: 941px;
-  margin-left: 6rem;
-  margin-right: 2rem;
-}
+    max-width: 941px;
+    margin-left: 6rem;
+    margin-right: 2rem;
+  }
   .home-content {
     padding-left: 1rem;
     margin-left: -3rem;
@@ -441,8 +441,8 @@ nav {
     font-size: 3rem;
   }
   .home-img {
-    width: 30rem;
-    height: 30rem;
+    width: 31.375rem;
+    height: 31.375rem;
   }
 }
 /* ========--- COUNTER-----======== */
@@ -456,27 +456,21 @@ nav {
   justify-content: space-evenly;
   align-items: center;
 }
-.counter-num{
+.counter-num {
   color: var(--container-color);
   text-align: center;
+  font-size: 3rem;
 }
 
-.counter-text{
+.counter-text {
   text-align: center;
-  letter-spacing: .1rem;
-  font-size: 0.7rem;
+  letter-spacing: 0.3rem;
+  font-size: 1rem;
   color: var(--container-color);
 }
 @media screen and (min-width: 340px), (max-width: 340px) {
   .counters {
     top: 50.375rem;
-  }
-  .counter {
-    
-  }
-  .counter-text {
-    /* position: absolute;
-    left: 7rem; */
   }
 }
 @media screen and (min-width: 400px) {
