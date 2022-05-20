@@ -485,11 +485,6 @@ nav {
   }
 }
 @media screen and (min-width: 768px) {
-  .counters {
-    /* display: flex;
-    justify-content: space-evenly;
-    top: 39.375rem; */
-  }
 }
 @media screen and (min-width: 1200px) {
   .counters {
