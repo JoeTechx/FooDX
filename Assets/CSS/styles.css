@@ -460,18 +460,24 @@ nav {
 .counter-num {
   color: var(--container-color);
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 .counter-text {
   text-align: center;
-  letter-spacing: 0.3rem;
-  font-size: 1rem;
+  letter-spacing: 0.166rem;
+  font-size: 0.7rem;
   color: var(--container-color);
 }
 @media screen and (min-width: 340px), (max-width: 340px) {
   .counters {
     top: 50.375rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .counters {
+    top: 50.375rem;
+    display: block;
   }
 }
 @media screen and (min-width: 400px) {
@@ -484,8 +490,18 @@ nav {
   .counters {
     top: 34.375rem;
   }
+  .counter-num {
+    font-size: 1.5rem;
+  }
+
+  .counter-text {
+    font-size: 0.7rem;
+  }
 }
 @media screen and (min-width: 768px) {
+    .counter-num {
+    font-size: 2rem;
+  }
 }
 @media screen and (min-width: 1200px) {
   .counters {
@@ -494,6 +510,7 @@ nav {
 }
 /* ============---ABOUT----============= */
 .abouts {
+  width: 100%;
   position: absolute;
   left: 0;
   top: 52.688rem;
@@ -501,8 +518,6 @@ nav {
 
 .about-up {
   padding: 1rem;
-  margin-left: -0.1rem;
-  margin-right: 14rem;
 }
 .about-img-up {
   width: 22.813rem;
@@ -523,6 +538,45 @@ nav {
 .about-btn-up {
   padding: 0.7rem;
   margin-top: 1rem;
+  font-size: 0.8rem;
+  background: var(--first-color);
+  color: var(--container-color);
+  border-color: transparent;
+  box-shadow: var(--dark-shadow);
+}
+
+.about-down {
+  padding: 1rem;
+}
+.about-img-down-right {
+  display: none;
+}
+.about-img-down {
+  width: 18.813rem;
+  height: 20.208rem;
+}
+.about-title-down {
+  font-size: 1.9rem;
+}
+.about-content-down {
+  margin-top: 2rem;
+}
+.about-description-down {
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+}
+.about-item-down{
+  display: flex;
+  font-size: 0.7rem;
+}
+.about-icon{
+  width: 1.4rem;
+  font-size: 1rem;
+  color: var(--first-color);
+}
+.about-btn-down {
+  padding: 0.7rem;
+  margin: 1rem;
   font-size: 0.8rem;
   background: var(--first-color);
   color: var(--container-color);
