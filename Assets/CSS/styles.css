@@ -593,14 +593,36 @@ nav {
   }
   .about-title-up,
   .about-title-down {
-  font-size: 1.4rem;
-}
+    font-size: 1.4rem;
+  }
   .about-description-up,
   .about-description-down {
-  font-size: .7rem;
+    font-size: 0.7rem;
+  }
+  .about-img-down {
+    width: 15.813rem;
+    height: 18.208rem;
+  }
 }
-  .about-img-down{
-  width: 15.813rem;
-  height: 18.208rem;
+
+@media screen and (min-width: 352px) {
+  .abouts {
+    top: 57.3rem;
+  }
+  .about-img-up {
+    width: 15.813rem;
+    height: 12.208rem;
+  }
+  .about-title-up,
+  .about-title-down {
+    font-size: 1.4rem;
+  }
+  .about-description-up,
+  .about-description-down {
+    font-size: 0.7rem;
+  }
+  .about-img-down {
+    width: 15.813rem;
+    height: 18.208rem;
   }
 }
