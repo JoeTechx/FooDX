@@ -178,6 +178,11 @@ nav {
 .show-sidebar {
   transform: translate(0);
 }
+@media screen and (max-width: 395px) {
+  .nav--logo {
+    height: 1.1rem;
+  }
+}
 @media screen and (min-width: 676px) {
   .sidebar {
     width: 400px;
@@ -298,11 +303,7 @@ nav {
   height: 19rem;
   padding: 1rem;
 }
-@media screen and (max-width: 395px) {
-  .nav--logo {
-    height: 1.1rem;
-  }
-}
+
 @media screen and (min-width: 568px) {
   .home {
     max-width: 700px;
@@ -490,4 +491,41 @@ nav {
   .counters {
     top: 38.375rem;
   }
+}
+/* ============---ABOUT----============= */
+.abouts {
+  position: absolute;
+  left: 0;
+  top: 52.688rem;
+}
+
+.about-up {
+  padding: 1rem;
+  margin-left: -0.1rem;
+  margin-right: 14rem;
+}
+.about-img-up {
+  width: 22.813rem;
+  height: 15.208rem;
+}
+
+.about-title-up {
+  font-size: 1.9rem;
+}
+.about-content-up {
+  margin-top: 2rem;
+}
+.about-description-up {
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.about-btn-up {
+  padding: 0.7rem;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  background: var(--first-color);
+  color: var(--container-color);
+  border-color: transparent;
+  box-shadow: var(--dark-shadow);
 }
