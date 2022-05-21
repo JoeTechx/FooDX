@@ -482,7 +482,7 @@ nav {
 }
 @media screen and (min-width: 400px) {
   .counters {
-    top: 43.375rem;
+    top: 45.375rem;
   }
 }
 
@@ -610,8 +610,12 @@ nav {
     top: 57.3rem;
   }
   .about-img-up {
-    width: 15.813rem;
+    width: 19.813rem;
     height: 12.208rem;
+  }
+  .about-content-up,
+  .about-content-down {
+    padding-left: 0.5rem;
   }
   .about-title-up,
   .about-title-down {
@@ -621,8 +625,113 @@ nav {
   .about-description-down {
     font-size: 0.7rem;
   }
+  .about-description-down {
+    margin: 1rem auto;
+  }
   .about-img-down {
-    width: 15.813rem;
+    width: 19.813rem;
+    height: 21.208rem;
+  }
+}
+@media screen and (min-width: 400px) {
+  .abouts {
+    top: 52.3rem;
+  }
+  .about-content-up,
+  .about-content-down {
+    padding-left: 0.6rem;
+  }
+  .about-title-up,
+  .about-title-down {
+    font-size: 1.7rem;
+  }
+  .about-description-up,
+  .about-description-down {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 568px) {
+  .abouts {
+    top: 42.3rem;
+    max-width: 700px;
+    padding: 1rem 0.5rem;
+  }
+  .about-up {
+    display: flex;
+  }
+  .about-img-up {
+    height: 14.208rem;
+  }
+  .about-content-up,
+  .about-content-down {
+    margin-top: auto;
+  }
+  .about-description-up {
+    font-size: 0.7rem;
+  }
+  .about-down {
+    display: flex;
+  }
+}
+@media screen and (min-width: 668px) {
+  .abouts {
+    max-width: 700px;
+  }
+  .about-img-up {
+    width: 19.813rem;
     height: 18.208rem;
+  }
+  .about-content-up {
+    padding-left: 2rem;
+    margin: auto;
+  }
+  .about-description-up {
+    font-size: 0.7rem;
+  }
+
+  .about-down {
+    display: flex;
+  }
+  .about-img-down {
+    width: 21.813rem;
+    height: 22.208rem;
+  }
+  .about-content-down {
+    padding-left: 1rem;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .abouts {
+    max-width: 700px;
+  }
+  .about-img-up {
+    width: 19.813rem;
+    height: 18.208rem;
+  }
+  .about-content-up {
+     margin-right: -5rem;
+  }
+  .about-description-up {
+    font-size: 0.7rem;
+  }
+
+  .about-down {
+    display: flex;
+  }
+  .about-img-down {
+    width: 21.813rem;
+    height: 22.208rem;
+    margin-right: -5rem;
+  }
+  .about-content-down {
+    padding-left: 1rem;
+    margin: auto;
+  }
+}
+@media screen and (min-width: 800px) {
+  .abouts {
+    max-width: 900px;
   }
 }
