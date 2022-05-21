@@ -499,7 +499,7 @@ nav {
   }
 }
 @media screen and (min-width: 768px) {
-    .counter-num {
+  .counter-num {
     font-size: 2rem;
   }
 }
@@ -565,11 +565,11 @@ nav {
   font-size: 0.8rem;
   margin-top: 0.8rem;
 }
-.about-item-down{
+.about-item-down {
   display: flex;
   font-size: 0.7rem;
 }
-.about-icon{
+.about-icon {
   width: 1.4rem;
   font-size: 1rem;
   color: var(--first-color);
@@ -582,4 +582,25 @@ nav {
   color: var(--container-color);
   border-color: transparent;
   box-shadow: var(--dark-shadow);
+}
+@media screen and (max-width: 350px) {
+  .abouts {
+    top: 65.3rem;
+  }
+  .about-img-up {
+    width: 15.813rem;
+    height: 12.208rem;
+  }
+  .about-title-up,
+  .about-title-down {
+  font-size: 1.4rem;
+}
+  .about-description-up,
+  .about-description-down {
+  font-size: .7rem;
+}
+  .about-img-down{
+  width: 15.813rem;
+  height: 18.208rem;
+  }
 }
