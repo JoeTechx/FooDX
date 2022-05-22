@@ -707,7 +707,7 @@ nav {
     max-width: 700px;
   }
   .about-img-up {
-    width: 19.813rem;
+    width: 21.813rem;
     height: 18.208rem;
   }
   .about-content-up {
@@ -730,10 +730,29 @@ nav {
     margin: auto;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 880px) {
   .abouts {
     max-width: 768px;
-    margin-left: 3rem;
-    margin-right: 5rem;
+  }
+  .about-up,
+  .about-down {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 968px) {
+  .abouts {
+    max-width: 871px;
+    margin-right: 7rem;
+    margin-left: -1rem;
+  }
+  .about-img-up {
+    width: 26rem;
+    height: 21rem;
+  }
+  .about-img-down {
+    width: 27rem;
+    height: 30rem;
+    margin-right: -4rem;
   }
 }
