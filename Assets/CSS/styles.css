@@ -711,7 +711,7 @@ nav {
     height: 18.208rem;
   }
   .about-content-up {
-     margin-right: -5rem;
+    margin-right: -5rem;
   }
   .about-description-up {
     font-size: 0.7rem;
@@ -732,6 +732,8 @@ nav {
 }
 @media screen and (min-width: 800px) {
   .abouts {
-    max-width: 900px;
+    max-width: 768px;
+    margin-left: 3rem;
+    margin-right: 5rem;
   }
 }
