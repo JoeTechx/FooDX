@@ -978,7 +978,7 @@ nav {
 
 @media screen and (min-width: 1348px) {
   .abouts {
-    max-width: 1100px;
+    max-width: 1150px;
   }
 
   .about-img-up {
@@ -993,8 +993,8 @@ nav {
   }
 
   .about-up {
-    margin-right: -6rem;
-    margin-left: 5rem;
+    margin-right: -11rem;
+    margin-left: 6rem;
   }
 
   .about-img-down {
@@ -1011,6 +1011,6 @@ nav {
     padding-left: 0;
     margin-left: 11rem;
     position: relative;
-    right: 9rem;
+    right: 8rem;
   }
 }
