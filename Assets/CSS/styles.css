@@ -13,8 +13,8 @@
   --first-color-alt: #de5f04;
   --first-color-lighter: #f07d2c;
   --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: hsl(var(--hue-color), 8%, 45%);
-  --text-color-light: hsl(var(--hue-color), 8%, 65%);
+  --text-color: rgb(127, 127, 127);
+  --text-color-light: rgb(180, 180, 180);
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: #fff;
@@ -341,6 +341,7 @@ nav {
   color: var(--container-color);
   border-color: transparent;
   box-shadow: var(--dark-shadow);
+  cursor: pointer;
 }
 
 .right-btn {
@@ -634,6 +635,7 @@ nav {
   color: var(--container-color);
   border-color: transparent;
   box-shadow: var(--dark-shadow);
+  cursor: pointer;
 }
 
 .about-down {
@@ -681,6 +683,7 @@ nav {
   color: var(--container-color);
   border-color: transparent;
   box-shadow: var(--dark-shadow);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 350px) {
@@ -1061,11 +1064,13 @@ nav {
   font-size: var(--small-font-size);
   color: var(--container-color);
   margin-top: 1rem;
-  
+
 }
-.watch-story i{
+
+.watch-story i {
   margin-right: 0.4rem;
 }
+
 @media screen and (max-width: 350px) {
   .story {
     top: 135.1875rem;
@@ -1147,22 +1152,25 @@ nav {
 }
 
 @media screen and (min-width: 595px) {
-    .story {
+  .story {
     top: 96rem;
   }
 }
+
 @media screen and (min-width: 625px) {
-    .story {
+  .story {
     top: 90rem;
   }
-    .story-description {
+
+  .story-description {
     font-size: var(--smaller-font-size);
     margin: 0 3rem;
     margin-top: 1rem;
   }
 }
+
 @media screen and (min-width: 668px) {
-    .story {
+  .story {
     top: 93rem;
   }
 
@@ -1176,18 +1184,22 @@ nav {
     margin-top: 1rem;
   }
 }
+
 @media screen and (min-width: 700px) {
-    .story {
+  .story {
     top: 90rem;
   }
 }
+
 @media screen and (min-width: 768px) {
-    .story {
+  .story {
     top: 90rem;
   }
-      .story-content {
+
+  .story-content {
     margin: 0 9rem;
   }
+
   .story-title {
     font-size: var(--h1-font-size);
   }
@@ -1198,11 +1210,13 @@ nav {
     margin-top: 1rem;
   }
 }
+
 @media screen and (min-width: 880px) {
-    .story {
+  .story {
     top: 94rem;
   }
-    .story-content {
+
+  .story-content {
     margin: 0 10rem;
   }
 
@@ -1214,95 +1228,456 @@ nav {
 }
 
 @media screen and (min-width: 927px) {
-    .story-title {
-   margin: 0 1rem;
+  .story-title {
+    margin: 0 1rem;
   }
 }
+
 @media screen and (min-width: 959px) {
-      .story {
+  .story {
     top: 94rem;
   }
-    .story-title {
-      font-size: 1.7rem;
-   margin: 0 2rem;
+
+  .story-title {
+    font-size: 1.7rem;
+    margin: 0 2rem;
   }
-    .story-description {
+
+  .story-description {
     margin: 0 8rem;
     margin-top: 1rem;
   }
 }
+
 @media screen and (min-width: 959px) {
-      .story {
+  .story {
     top: 101rem;
   }
 }
+
 @media screen and (min-width: 1072px) {
-    .story-title {
-      font-size: 1.7rem;
-   margin: 0 3rem;
-  }
-    .story-description {
-    margin: 0 11rem;
-    margin-top: 1rem;
-  }
-}
-@media screen and (min-width: 1072px) {
-    .story-title {
-   margin: 0 7rem;
-  }
-    .story-description {
-    margin: 0 11rem;
-    margin-top: 1rem;
-  }
-}
-@media screen and (min-width: 1200px) {
-      .story {
-   top: 120.1875rem;
+  .story-title {
+    font-size: 1.7rem;
+    margin: 0 3rem;
   }
 
-    .story-image {
+  .story-description {
+    margin: 0 11rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1072px) {
+  .story-title {
+    margin: 0 7rem;
+  }
+
+  .story-description {
+    margin: 0 11rem;
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .story {
+    top: 120.1875rem;
+  }
+
+  .story-image {
     width: 100%;
     height: 18rem;
   }
-    .story-title {
-   font-size: 1.8rem;
+
+  .story-title {
+    font-size: 1.8rem;
   }
 
-      .story-description {
+  .story-description {
     margin: 0 15rem;
     margin-top: 1rem;
   }
 }
+
 @media screen and (min-width: 1254px) {
-      .story {
-   top: 120.1875rem;
-  }
-        .story-title {
- margin: 0 11rem;
+  .story {
+    top: 120.1875rem;
   }
 
-      .story-description {
+  .story-title {
+    margin: 0 11rem;
+  }
+
+  .story-description {
     margin: 0 15rem;
     margin-top: 1rem;
   }
 }
+
 @media screen and (min-width: 1348px) {
-      .story {
-   top: 123.1875rem;
+  .story {
+    top: 123.1875rem;
   }
-      .story-image {
+
+  .story-image {
     width: 100%;
     height: 20rem;
   }
-      .story-content {
- top: 6rem;
-  }
-        .story-title {
- margin: 0 11rem;
+
+  .story-content {
+    top: 6rem;
   }
 
-      .story-description {
+  .story-title {
+    margin: 0 11rem;
+  }
+
+  .story-description {
     margin: 0 15rem;
     margin-top: 1rem;
+  }
+}
+
+/* ======== EXPLORE OUR FOOD ======== */
+.explore-food {
+  position: absolute;
+  top: 150rem;
+  left: 0;
+  width: 100%;
+}
+
+.explore-text {
+  text-align: center;
+}
+
+.explore-title {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.explore-description {
+  font-size: var(--small-font-size);
+  margin-bottom: 6rem;
+  line-height: 1.3rem;
+}
+
+.explore-content {
+  font-size: 62.3%;
+}
+
+.food-content {
+  margin-bottom: 4rem;
+  text-align: center;
+}
+
+.food-img {
+  width: 15rem;
+  margin: 0 4.5rem;
+  margin-bottom: 0.6rem;
+}
+
+.food-title {
+  font-size: 0.9rem;
+  color: var(--title-color);
+  margin-bottom: 0.3rem;
+}
+
+.food-time {
+  margin-bottom: 0.2rem;
+  text-transform: capitalize;
+  font-size: 0.72rem;
+  color: var(--text-color);
+}
+
+.food-price {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--first-color);
+  margin-bottom: 1rem;
+  font-family: var(--body-font-lg);
+}
+
+.food-price span {
+  font-size: 0.8rem;
+  color: var(--text-color-light);
+  text-decoration: line-through;
+  padding-left: 0.2rem;
+}
+
+.food-content hr {
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  opacity: 7%;
+  width: 17rem;
+}
+
+.food-btn {
+  padding: 0.5rem;
+  margin: 1rem;
+  font-size: 0.8rem;
+  background: var(--first-color);
+  color: var(--container-color);
+  border-color: transparent;
+  box-shadow: var(--dark-shadow);
+}
+
+@media screen and (max-width: 350px) {
+  .explore-food {
+    top: 155rem;
+    left: 0;
+  }
+
+  .explore-title {
+    font-size: 1.5rem;
+  }
+
+  .explore-description {
+    font-size: 0.6rem;
+    margin-bottom: 6rem;
+  }
+
+  .explore-content {
+    font-size: 62.3%;
+    margin: 0 auto;
+  }
+
+  .food-content {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  .food-img {
+    width: 14rem;
+    margin: 0 auto;
+    margin-bottom: 0.6rem;
+  }
+
+  .food-title {
+    font-size: 0.9rem;
+    color: var(--title-color);
+    margin-bottom: 0.3rem;
+  }
+
+  .food-time {
+    margin-bottom: 0.2rem;
+    text-transform: capitalize;
+    font-size: 0.72rem;
+    color: var(--text-color);
+  }
+
+  .food-price {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--first-color);
+    margin-bottom: 1rem;
+    font-family: var(--body-font-lg);
+    cursor: pointer;
+  }
+
+  .food-price span {
+    font-size: 0.8rem;
+    color: var(--text-color-light);
+    text-decoration: line-through;
+    padding-left: 0.2rem;
+  }
+
+}
+
+@media screen and (min-width: 500px) {
+  .explore-food {
+    top: 145rem;
+  }
+}
+
+@media screen and (min-width: 568px) {
+  .explore-food {
+    top: 120rem;
+  }
+
+  .explore-description {
+    font-size: 0.8rem;
+    margin: 0 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (min-width: 625px) {
+  .explore-food {
+    top: 112rem;
+  }
+
+  .explore-description {
+    font-size: 0.8rem;
+    margin: 0 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .explore-food {
+    top: 112rem;
+  }
+
+  .explore-description {
+    font-size: 0.8rem;
+    margin: 0 2rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media screen and (min-width: 880px) {
+  .explore-food {
+    top: 115rem;
+  }
+
+  .explore-title {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .explore-description {
+    font-size: var(--small-font-size);
+    margin: 0 9em;
+    margin-bottom: 6rem;
+  }
+
+
+
+  .food-content {
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+
+  .food-img {
+    width: 15rem;
+    margin: 0 4.5rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .food-title {
+    font-size: 0.9rem;
+    color: var(--title-color);
+    margin-bottom: 0.3rem;
+  }
+
+  .food-time {
+    margin-bottom: 0.2rem;
+    text-transform: capitalize;
+    font-size: 0.72rem;
+    color: var(--text-color);
+  }
+}
+
+@media screen and (min-width: 958px) {
+  .explore-food {
+    top: 123rem;
+    width: 100%;
+  }
+
+  .explore-description {
+    font-size: var(--small-font-size);
+    margin: 0 9rem;
+    margin-bottom: 6rem;
+  }
+
+  .explore-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .food-content {
+    text-align: left;
+    width: 17rem;
+  }
+
+  .food-img {
+    width: 15rem;
+    margin: 0 auto;
+    margin-bottom: 0.6rem;
+  }
+
+  .food-title {
+    font-size: 0.9rem;
+    color: var(--title-color);
+    margin-bottom: 0.5rem;
+  }
+
+  .food-time {
+    margin-bottom: 0.4rem;
+    font-size: 0.72rem;
+  }
+
+  .food-price {
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+
+  .food-content hr {
+    margin: 0;
+    margin-bottom: 1rem;
+    opacity: 7%;
+    width: 14.6rem;
+  }
+
+  .food-btn {
+    padding: 0.5rem;
+    margin: 0;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .explore-description {
+    margin: 0 13rem;
+    margin-bottom: 6rem;
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .explore-description {
+    margin: 0 17rem;
+    margin-bottom: 6rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .explore-food {
+    top: 145rem;
+    width: 100%;
+  }
+
+  .explore-description {
+    margin: 0 19rem;
+    margin-bottom: 6rem;
+  }
+
+  .food-content {
+    text-align: left;
+    width: 19rem;
+  }
+}
+
+@media screen and (min-width: 1348px) {
+  .explore-food {
+    top: 150rem;
+    width: 100%;
+  }
+
+  .explore-description {
+    margin: 0 24rem;
+    margin-bottom: 6rem;
+  }
+
+  .explore-content {
+    margin: 0 4rem;
+  }
+
+  .food-content {
+    text-align: left;
+    width: 25rem;
+  }
+
+  .food-img {
+    width: 19rem;
   }
 }
