@@ -1682,6 +1682,7 @@ nav {
   }
 }
 
+/* ======== TESTIMONIALS ======== */
 
 .testimonials{
 background-color: var(--first-color);
@@ -1694,13 +1695,14 @@ width: 100%;
 .testimonial-title{
   color: var(--container-color);
   margin: 2rem auto;
+  margin-top: 3rem;
 }
 
 .testimonial-content{
   background-color: var(--container-color);
   margin: 5rem;
   padding: 3rem;
-  border-radius: 0.5rem;
+  border-radius: 0.4rem;
 }
 .testimonial-img{
   width: 3rem;
@@ -1720,11 +1722,108 @@ width: 100%;
 .testimonial-dot {
   height: 0.7rem;
   width: 0.7rem;
-  background-color: rgb(216, 216, 216);
+  background-color: rgb(199, 188, 188);
   border-radius: 50%;
   display: inline-block;
+position: relative;
+  bottom: 2rem;
 }
 
 .active-dot {
   background-color: var(--container-color);
+}
+
+@media screen and (max-width: 350px) {
+  .testimonials {
+  top: 245rem;
+  }
+
+  .testimonial-description{
+  font-size: 0.6rem;
+  }
+}
+
+@media screen and (min-width: 500px) {
+   .testimonials {
+    top: 234rem;
+  }
+}
+
+@media screen and (min-width: 568px) {
+   .testimonials {
+    top: 210rem;
+  }
+}
+
+@media screen and (min-width: 625px) {
+   .testimonials {
+    top: 200rem;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .testimonial-description{
+  margin: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 880px) {
+     .testimonials {
+    top: 207rem;
+  }
+  .testimonial-description{
+  margin: 0 5rem;
+  }
+}
+
+@media screen and (min-width: 958px) {
+     .testimonials {
+    top: 161rem;
+  }
+  .testimonial-description{
+  margin: 0 10rem;
+  }
+}
+@media screen and (min-width: 1055px) {
+  .testimonial-description{
+  margin: 0 13rem;
+  }
+}
+@media screen and (min-width: 1155px) {
+  .testimonial-description{
+  margin: 0 15rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+       .testimonials {
+    top: 183rem;
+  }
+  .testimonial-description{
+  margin: 0 15rem;
+  }
+}
+@media screen and (min-width: 1220px) {
+       .testimonials {
+    top: 183rem;
+  }
+  .testimonial-description{
+  margin: 0 18rem;
+  }
+}
+@media screen and (min-width: 1260px) {
+       .testimonials {
+    top: 183rem;
+  }
+  .testimonial-description{
+  margin: 0 19rem;
+  }
+}
+@media screen and (min-width: 1348px) {
+       .testimonials {
+    top: 193rem;
+  }
+  .testimonial-description{
+  margin: 0 21rem;
+  }
 }
