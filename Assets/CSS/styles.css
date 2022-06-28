@@ -1681,3 +1681,50 @@ nav {
     width: 19rem;
   }
 }
+
+
+.testimonials{
+background-color: var(--first-color);
+width: 100%;
+  position: absolute;
+  top: 237rem;
+  text-align: center;
+}
+
+.testimonial-title{
+  color: var(--container-color);
+  margin: 2rem auto;
+}
+
+.testimonial-content{
+  background-color: var(--container-color);
+  margin: 5rem;
+  padding: 3rem;
+  border-radius: 0.5rem;
+}
+.testimonial-img{
+  width: 3rem;
+}
+
+.testimonial-description{
+  font-size: var(--smaller-font-size);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.testimonial-name{
+    font-size: 0.6rem;
+    color: var(--first-color-lighter);
+    font-weight: 600;
+}
+.testimonial-dot {
+  height: 0.7rem;
+  width: 0.7rem;
+  background-color: rgb(216, 216, 216);
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.active-dot {
+  background-color: var(--container-color);
+}
