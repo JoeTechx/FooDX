@@ -1673,7 +1673,7 @@ nav {
   }
 
   .food-content {
-    text-align: left;
+    margin: 0 4rem;
     width: 25rem;
   }
 
