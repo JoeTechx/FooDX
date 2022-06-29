@@ -14,13 +14,15 @@
   --first-color-lighter: #f07d2c;
   --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: rgb(127, 127, 127);
-  --text-color-light: rgb(180, 180, 180);
+  --text-color-light: hsl(211, 27%, 70%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: #fff;
   --scroll-bar-color: hsl(var(--hue-color), 12%, 99%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
-
+  --radius: 0.5rem;
+  --fixed-width: 620px;
+    --spacing: 0.1rem;
   /* FONT And TYPOGRAPHY */
   --body-font-sm: "Roboto", sans-serif;
   --body-font-lg: "Quicksand", sans-serif;
@@ -1827,3 +1829,79 @@ position: relative;
   margin: 0 21rem;
   }
 }
+
+/* ======== QUESTIONS ======== */
+
+.questions{
+  position: absolute;
+  top: 274rem;
+  width: 100%;
+}
+
+.questions-title {
+  margin-bottom: 4rem;
+    font-family: "Great Vibes", cursive;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.question-container {
+  max-width: 20rem;
+  margin: 0 auto;
+}
+.question-content {
+  background: var(--container-color);
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  padding: 1.5rem 1.5rem 0 1.5rem;
+  margin-bottom: 2rem;
+}
+.question-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  padding-bottom: 1rem;
+}
+.question-title h4 {
+  margin-bottom: 0;
+  letter-spacing: var(--spacing);
+  color: var(--clr-grey-1);
+}
+
+.line {
+  color: var(--first-color-alt);
+  margin-right: 0.2rem;
+}
+.question-btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  color: var(--first-color-lighter);
+  transition: var(--transition);
+}
+/* .question-btn:hover {
+  transform: rotate(180deg);
+} */
+.question-text {
+  padding: 1rem 0 1.5rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+   margin-bottom: 0;
+}
+/* hide text */
+ .question-text {
+  display: none;
+}
+.show-text .question-text {
+  display: block;
+}
+.angle-up-icon {
+  display: none;
+}
+.show-text .angle-up-icon {
+  display: inline;
+}
+.show-text .angle-down-icon {
+  display: none;
+} 
