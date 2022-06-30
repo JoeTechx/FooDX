@@ -13,8 +13,8 @@
   --first-color-alt: #de5f04;
   --first-color-lighter: #f07d2c;
   --title-color: hsl(var(--hue-color), 8%, 15%);
-  --text-color: rgb(127, 127, 127);
-  --text-color-light: hsl(211, 27%, 70%);
+  --text-color: rgb(106, 107, 108);
+  --text-color-light: hsl(212, 13%, 81%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
   --body-color: hsl(var(--hue-color), 60%, 99%);
   --container-color: #fff;
@@ -2143,11 +2143,11 @@ nav {
 }
 
 .email-input {
-  background-color: var(--input-color);
+  background-color: var(--container-color);
   color: var(--text-color);
-  font-family: var(--body-font);
+  font-family: var(--body-font-sm);
   font-size: var(--smaller-font-size);
-  border: none;
+  border-color: #bababa;
   outline: none;
   padding: 0.75rem 8rem 0.75rem 1rem;
 }
@@ -2162,7 +2162,7 @@ nav {
   text-transform: capitalize;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0.8rem;
 }
 
 @media  screen and (max-width: 350px) {
@@ -2203,6 +2203,12 @@ nav {
 }
 .newsletter-title{
   font-size:1.7rem;
+}
+.newsletter-form{
+  display: flex;
+  align-items: center; 
+  justify-content:center;
+  gap: 2rem;
 }
 }
 @media  screen and (min-width: 1200px) {
