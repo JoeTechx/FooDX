@@ -2147,7 +2147,7 @@ nav {
   color: var(--text-color);
   font-family: var(--body-font-sm);
   font-size: var(--smaller-font-size);
-  border-color: #bababa;
+  border-color: #a0a0a0;
   outline: none;
   padding: 0.75rem 8rem 0.75rem 1rem;
 }
@@ -2219,5 +2219,79 @@ nav {
 @media  screen and (min-width: 1348px) {
   .newsletter {
   top: 234rem;
+}
+}
+
+.footer{
+position: relative;
+top: 286rem;
+background-color: var(--first-color);
+width: 100%;
+padding: 3rem;
+text-align: center;
+color: var(--container-color);
+}
+
+.footer-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.footer-link{
+  color: var(--container-color);
+  font-size: var(--small-font-size);
+}
+
+.footer-social-icon{
+  color : var(--container-color);
+  font-size: 1.7em;
+}
+
+.footer-social{
+  color : var(--container-color);
+  margin-bottom: 1rem;
+}
+
+ @media  screen and (max-width: 350px) {
+  .footer {
+  top: 298rem;
+}
+}
+
+@media  screen and (min-width: 500px) {
+  .footer {
+  top: 279rem;
+}
+}
+@media  screen and (min-width: 568px) {
+  .footer {
+  top: 254rem;
+}
+}
+@media  screen and (min-width: 625px) {
+  .footer {
+  top: 248rem;
+}
+}
+@media  screen and (min-width: 880px) {
+  .footer {
+  top: 250rem;
+}
+}
+@media  screen and (min-width: 958px) {
+  .footer{
+  top: 207rem;
+}
+}
+@media  screen and (min-width: 1200px) {
+  .footer{
+  top: 232rem;
+}
+}
+@media  screen and (min-width: 1348px) {
+  .footer {
+  top: 239rem;
 }
 }
