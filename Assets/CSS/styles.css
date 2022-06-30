@@ -1959,7 +1959,7 @@ position: relative;
 }
 @media screen and (min-width: 1200px) {
   .questions{
-  top: 220rem;
+  top: 217rem;
 }
 .question-container {
   width: 53rem;
@@ -1968,7 +1968,7 @@ position: relative;
   gap: 3rem;
 } 
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1348px) {
   .questions{
   top: 227rem;
 }
