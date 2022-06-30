@@ -1979,3 +1979,24 @@ position: relative;
   gap: 3rem;
 } 
 }
+
+/* ======== DIVIDER ======== */
+.divider{
+  position: absolute;
+  top: 318rem;
+  background-color: var(--title-color);
+  padding: 3rem;
+  width: 100%;
+  color: var(--container-color);
+  text-align: center;
+}
+
+ .divider-btn{
+  background-color: var(--first-color);
+  border-color: transparent;
+  color: var(--container-color);
+  outline: none;
+  text-transform: capitalize;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+ }
