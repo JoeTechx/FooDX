@@ -91,7 +91,7 @@ nav {
 .header-top {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: var(--z-fixed);
   width: 100%;
   height: 4rem;
@@ -103,14 +103,14 @@ nav {
 
 .nav--logo {
   height: 1.4rem;
-  position: absolute;
-  top: 1.5rem;
+  position: relative;
+  top: 0rem;
   left: 2rem;
 }
 
 .nav-toggle {
   position: absolute;
-  top: 1rem;
+  top: 0.3rem;
   right: 3rem;
   font-size: 2rem;
   background: transparent;
@@ -1834,7 +1834,7 @@ position: relative;
 
 .questions{
   font-size: 62.3%;
-  position: absolute;
+  position: relative;
   top: 274rem;
   width: 100%;
 }
@@ -1982,21 +1982,96 @@ position: relative;
 
 /* ======== DIVIDER ======== */
 .divider{
-  position: absolute;
-  top: 318rem;
+  position:relative;
+  top: 280rem;
   background-color: var(--title-color);
-  padding: 3rem;
+  padding: 2rem;
   width: 100%;
   color: var(--container-color);
   text-align: center;
 }
-
+.divider span{
+font-family: var(--body-font-lg);
+font-weight: 600;
+}
  .divider-btn{
   background-color: var(--first-color);
   border-color: transparent;
   color: var(--container-color);
   outline: none;
+  font-weight: 600;
   text-transform: capitalize;
   margin-top: 1.5rem;
   padding: 0.5rem;
+ }
+
+ @media screen and (max-width: 350px) {
+  .divider{
+    top: 287rem;
+  }
+
+  .divider span{
+  font-size: var(--smaller-font-size);
+  }
+}
+ @media screen and (min-width: 500px) {
+  .divider{
+    top: 272rem;
+  }
+  
+  .divider span{
+  margin-right: 2rem;
+  }
+ }
+@media screen and (min-width: 568px) {
+  .divider{
+    top: 249rem;
+  }
+ }
+@media screen and (min-width: 625px) {
+  .divider{
+    top: 240rem;
+  }
+ }
+
+@media screen and (min-width: 880px) {
+  .divider{
+    top: 245rem;
+  }
+ }
+@media screen and (min-width: 958px) {
+  .divider{
+    top: 198rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .divider span{
+  margin-right: 9rem;
+  }
+    .divider-btn{
+  margin-top: 0;
+  }
+ }
+
+@media screen and (min-width: 1200px) {
+  .divider{
+    top: 220rem;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .divider span{
+  margin-right: 9rem;
+  }
+    .divider-btn{
+  margin-top: 0;
+  }
+ }
+@media screen and (min-width: 1348px) {
+  .divider{
+    top: 229rem;
+  }
  }
